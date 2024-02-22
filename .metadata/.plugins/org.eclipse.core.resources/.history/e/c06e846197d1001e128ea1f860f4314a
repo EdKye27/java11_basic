@@ -1,4 +1,4 @@
-package org.kh.site;
+package org.kh.site2;
 //대입 연산자 : 연산 후에 대입하는 연산자 +=, -=, *=, /=, %=, &=, |=, >>=, <<=, >>>=, ^=
 //비트 연산자 : &(and), |(or), ~(complement), ^(xor), >>(>>>, right shift), <<(left shift)
 public class Operation7 {
