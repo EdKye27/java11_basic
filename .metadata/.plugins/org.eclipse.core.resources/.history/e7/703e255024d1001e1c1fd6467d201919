@@ -1,0 +1,43 @@
+package org.KH.app2;
+//반복문 : for, while, do~while
+public class Loop1 {
+
+	public static void main(String[] args) {
+		/*
+		n 값을 10번 더하려면..
+		
+		int n = 0;
+		n = n + 1;
+		n = n + 1;
+		n = n + 1;
+		n = n + 1;
+		n = n + 1;
+		n = n + 1;
+		n = n + 1;
+		n = n + 1;
+		n = n + 1;
+		n = n + 1;
+		
+		System.out.println("n 값은? : "+n);	//n 값은? : 10 으로 출력된다
+		*/
+		
+		/*
+		for 문 익혀보기		:	조건식이 참 일때 동안 반복수행 한다
+		for(초기식;조건식;증감식) { 반복해야할 문장; }
+		 */
+		
+		int n = 0;
+		for(int i=0; i<10; i++ ) {	
+			n = n + 1;
+		}
+		
+		System.out.println("n 값은? : "+n);
+		int[] nums = {80,95,75,60,100,65};	// 배열 : 변수에 여러 값 넣기
+		String names[] = {"김","이","박","최","정","오","배","강","장","계"};
+		for(int i=0;i<10;i++) {
+			System.out.println("이름 : "+names[i]);
+			System.out.println("점수 : "+nums[i]+"\n");
+		}
+	}
+
+}

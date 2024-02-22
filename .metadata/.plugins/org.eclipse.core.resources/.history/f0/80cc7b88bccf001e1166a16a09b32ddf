@@ -1,0 +1,19 @@
+package org.KH.java;
+
+public class Teststst1 {
+
+//	public static void main(String[] args) {
+//		char a = '글';
+//		
+//		System.out.println("유니코드 확인하기 : "+(int)a);
+
+	public static void main(String[] args) {
+		int a = 10;
+		float b = 2.0f;
+		
+		System.out.printf("Q4 의 답은? : "+(int)a+b);
+		
+	}
+
+}
+

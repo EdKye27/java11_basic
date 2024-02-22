@@ -1,0 +1,9 @@
+package org.KH.java;
+
+public class HELLO {
+
+	public static void main(String[] args) {	//실행을 위한 기본 main method
+		System.out.println("Hello-! \nJAVA~!");
+		System.out.println("My name is Sungwoo Kye");
+	}
+}

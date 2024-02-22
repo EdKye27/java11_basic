@@ -1,0 +1,13 @@
+package org.KH.java;
+
+public class Variable1 {
+
+	public static void main(String[] args) {
+		boolean a = true;	//논리형 (true, false : 1byte
+//		byte b = 255;	// 2의 3승, 256가지로 -128 ~ 127 까지 표시 가능 | 즉, 256은 해당 공간보다 커서 Overflow
+//		byte b = -129;	// 해당 공간에 저장할 수 있는 숫자보다 작으므로 Underflow
+		byte b = 126;
+		short c = 31242;	//2byte = 16bit = 65536가지 (-32768 ~ 32767 까지 저장 가능)
+	}
+
+}
