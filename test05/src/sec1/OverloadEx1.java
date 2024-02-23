@@ -5,8 +5,10 @@ public class OverloadEx1 {
 		
 		Product pro1 = new Product ();
 		pro1.print();
-		pro1.print("성우");
-		pro1.print(500);
+		pro1.print("무화과 베이글");
+		pro1.print(30);
+		pro1.print(600);
+
 	}
 	
-}
+	}

@@ -20,9 +20,28 @@ public class Product {
 		System.out.println("제품이름 : " + pname);
 	}
 	
+	public void print (int pcode) {
+		System.out.println("제품번호 : " +pcode);
+	}
+	
+	public void print (int price) {
+		System.out.println("제품가격 : " +price);
+	}
+	
+	public void print (int size) {
+		System.out.println("제품사이즈 : " +size);
+	}
+	
 	public void print (int amount) {
 		System.out.println("제품제고 : " +amount);
 	}
+	
+	public void print (String remark) {
+		System.out.println("제품 비고 : " + remark);
+	}
+	
+	
+	
 	
 	//getters and setters
 	public String getPname() {
