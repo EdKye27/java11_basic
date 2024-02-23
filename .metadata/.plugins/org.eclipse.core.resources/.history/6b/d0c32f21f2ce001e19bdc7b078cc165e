@@ -1,8 +1,0 @@
-package org.KH.java;
-
-public class HELLO {
-
-	public static void main(String[] args) {
-		System.out.println("Hello-! \nJAVA~!");
-	}
-}

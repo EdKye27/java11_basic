@@ -8,6 +8,7 @@ public class StudentEx1 {
 		kye.kor = 98;
 		kye.eng = 100;
 		kye.math = 87;
+		
 		kye.resulting();
 				
 	}
