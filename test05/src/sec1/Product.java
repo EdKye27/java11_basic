@@ -1,8 +1,6 @@
 package sec1;
 
 public class Product {
-
-	// 정보은닉을 위해 private 로 진행한다.
 	private String pname;
 	private int pcode;
 	private int price;
@@ -10,40 +8,26 @@ public class Product {
 	private int amount;
 	private String remark;
 	
-	
-	// 메소드 오버로딩	(Method Overload)
-	public void print () {
-		System.out.println("제품정보 : ");
+	/* 메소드 오버로딩(Method Overload) */
+	public void print() {
+		System.out.println("제품정보");
 	}
-	
-	public void print (String pname) {
-		System.out.println("제품이름 : " + pname);
+	public void print(String pname) {
+		System.out.println("제품이름 : "+pname);
 	}
-	
-	public void print (int pcode) {
-		System.out.println("제품번호 : " +pcode);
+	public void print(int amount) {
+		System.out.println("제품수량 : "+amount);
 	}
-	
-	public void print (int price) {
-		System.out.println("제품가격 : " +price);
+	public void print(String pname, int amount) {
+		System.out.println("제품이름 : "+pname);
+		System.out.println("제품수량 : "+amount);
 	}
-	
-	public void print (int size) {
-		System.out.println("제품사이즈 : " +size);
-	}
-	
-	public void print (int amount) {
-		System.out.println("제품제고 : " +amount);
-	}
-	
-	public void print (String remark) {
-		System.out.println("제품 비고 : " + remark);
+	public void print(int amount, String pname) {
+		System.out.println("제품이름 : "+pname);
+		System.out.println("제품수량 : "+amount);
 	}
 	
 	
-	
-	
-	//getters and setters
 	public String getPname() {
 		return pname;
 	}
@@ -80,12 +64,9 @@ public class Product {
 	public void setRemark(String remark) {
 		this.remark = remark;
 	}
-	
-	// toString()
 	@Override
 	public String toString() {
 		return "Product [pname=" + pname + ", pcode=" + pcode + ", price=" + price + ", size=" + size + ", amount="
 				+ amount + ", remark=" + remark + "]";
 	}
-	
 }
