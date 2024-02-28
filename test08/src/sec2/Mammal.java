@@ -1,8 +1,8 @@
-package sec1;
+package sec2;
 // Animal (부모 클래스 = super.) , Mammal (자식 클래스 = sub)
 public class Mammal extends Animal {		//Animal 로부터 모든 멤버를 상속받은 Animal 클래
 
-	private int leg;
+	int leg;
 
 	
 	public int getLeg() {
@@ -15,7 +15,7 @@ public class Mammal extends Animal {		//Animal 로부터 모든 멤버를 상속
 
 	@Override
 	public String toString() {
-		return "Mammal [leg=" + leg + "], name = ["+ super.getName() +"]";
+		return "Mammal [leg=" + leg + "], name = ["+ super.name +"]";
 	}
 	
 }

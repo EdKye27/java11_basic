@@ -1,9 +1,9 @@
-package sec1;
+package sec2;
 
 public class Birds extends Animal {
 
-	private int wings;
-	private boolean fly;
+	int wings;
+	boolean fly;
 
 	
 	public int getWings() {
@@ -24,7 +24,7 @@ public class Birds extends Animal {
 
 	@Override
 	public String print() {
-		return "Birds [wings=" + wings + ", fly=" + fly + "], name=["+ super.getName() +"]";
+		return "Birds [wings=" + wings + ", fly=" + fly + "], name=["+ super.name +"]";
 	}
 	
 	
