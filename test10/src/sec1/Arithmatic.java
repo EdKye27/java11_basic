@@ -1,6 +1,7 @@
 package sec1;
 //구현 클래스
 public class Arithmatic extends Repeator {
+	
 	//추상 클래스로 부터 물려 받은 메소드는 구현 클래스에서 반드시 그 구현내용을 기술해야 한다.
 	@Override
 	public int multiply(int num1, int num2) {

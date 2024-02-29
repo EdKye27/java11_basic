@@ -1,6 +1,6 @@
 package sec1;
 
-public class CalExam3 {
+public class CalcExam3 {
 	public static void main(String[] args) {
 		int num1 = 50;
 		int num2 = 4;
